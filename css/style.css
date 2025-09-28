@@ -83,11 +83,10 @@ nav a:focus {
 
 /* Step 8: Write the selector/rule property to style the .text-block class. */
 .text-block {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
     text-align: center;
+    height: 100%;
 }
 
 .text-block ul {
